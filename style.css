@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background: #264653; /* Fundo preto */
+    color: #2a9d8f; /* Cor do texto branco para contraste */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; /* Espaçamento entre os itens */
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 20px; /* Tamanho do texto aumentado */
+    color: #e9c46a; /* Cor do texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 230px; /* Tamanho ajustado */
+    height: auto;
+    border-radius: 10px;
+    padding: 5px; /* Espaço entre a borda e a imagem */
+}
+
+/* Definir cores diferentes para a borda de cada imagem */
+figure:nth-child(1) img {
+    border: 5px solid #f4a261; /* Cor da borda 1 */
+}
+
+figure:nth-child(2) img {
+    border: 5px solid #e76f51; /* Cor da borda 2 */
+}
+
+figure:nth-child(3) img {
+    border: 5px solid #0f232b; /* Cor da borda 3 */
+}
+
+figure:nth-child(4) img {
+    border: 5px solid #2a9d8f; /* Cor da borda 4 */
+}
+
+figure:nth-child(5) img {
+    border: 5px solid #e9c46a; /* Cor da borda 5 */
+}
+
+figure:nth-child(6) img {
+    border: 5px solid #f4a261; /* Cor da borda 6 */
+}
